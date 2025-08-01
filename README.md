@@ -19,5 +19,4 @@
 - [ ] Step 17: Tries
 - [ ] Step 18: Strings (Advanced)
 
--  Step oo: Leetcode (Advanced)
--  Number of Problems [ ]
+-  Step oo: Leetcode (Advanced) -- Along side each module and finally take on HARD ones
