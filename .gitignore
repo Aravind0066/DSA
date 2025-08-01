@@ -32,6 +32,29 @@
 *.a
 *.lib
 
+# ======== VS Code settings (important for you) ========
+.vscode/
+*.code-workspace
+
+# ======== Windows system junk ========
+Thumbs.db
+desktop.ini
+
+# ======== macOS (in case you use it someday) ========
+.DS_Store
+
+# ======== Logs and temporary files ========
+*.log
+*.tmp
+*~
+*.swp
+
+# ======== Build output folders (optional but tidy) ========
+build/
+bin/
+dist/
+obj/
+
 # Executables
 *.exe
 *.out
