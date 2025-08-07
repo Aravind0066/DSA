@@ -4,7 +4,7 @@ using namespace std;
 void bubble_sort(int arr[], int n) {
     // bubble sort                   //// bubble sort is all about swapping adjacent elements till the max is pushed to the end 
     for (int i = n - 1; i >= 0; i--) {
-        for (int j = 0; j <= i - 1; j++) {
+        for (int j = 0; j < i; j++) {
             if (arr[j] > arr[j + 1]) {              // check if the next element is smaller if so switch;
                 int temp = arr[j + 1];
                 arr[j + 1] = arr[j];
