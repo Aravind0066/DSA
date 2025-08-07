@@ -64,3 +64,10 @@ int main() {
     cout << "lb = "<< default_lb <<"  ub = " << default_ub << endl;
     return 0;
 }
+
+
+/// the floor is the lower bound and the ceil is the upper bound if the element is not found  
+/// if the element is found then floor and ceil both are the target element
+
+/// searching the index is similar to finding the lowerbound. 
+/// 
