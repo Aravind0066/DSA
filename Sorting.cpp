@@ -26,6 +26,24 @@ void selection_sort(int arr[], int n) {
 
 }
 
+void bubble_sort(int arr[], int n) {              //// bubble sort is all about swapping adjacent elements till the max is pushed to the end 
+    for (int i = n - 1; i >= 0; i--) {
+        for (int j = 0; j < i; j++) {
+            if (arr[j] > arr[j + 1]) {              // check if the next element is smaller if so switch;
+                int temp = arr[j + 1];
+                arr[j + 1] = arr[j];
+                arr[j] = temp;
+            }
+        }
+    }
+
+    cout << "After Using bubble sort: " << "\n";
+    for (int i = 0; i < n; i++) {
+        cout << arr[i] << " ";
+    }
+    cout << "\n";
+}
+
 void insertion_sort(int arr[], int n) {             ////insertion sort is different from the rest
     for (int i = 0; i < n; i++) {                   //// it actually divides the array for example if n==5  j -->> 1-0, 2-0, 3-0, 4-0, 5-0 like that 
         int j = i;
@@ -63,6 +81,6 @@ int main()
     }
     cout << endl;
     insertion_sort(arr, n);
-    
+
     return 0;
 }
