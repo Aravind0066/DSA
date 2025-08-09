@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
-
 using namespace std;
+
 void selection_sort(int arr[], int n) {
   // selection sort                             /// selection sort is all about finding minimum and swapping with the elements starting from the start
   for (int i = 0; i < n - 1; i++) {
