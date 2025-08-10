@@ -1,0 +1,54 @@
+Sorting:
+
+Selection sort:
+loop 1{ 0-n-1
+mini
+loop{ 2 i-n
+find miniindex
+}
+swap if mini!=i
+}
+
+Bubble
+
+loop 1{ 0 - n-1
+include swap variable to break if no swap
+loop 2{ 0 - n-1-i;
+if(ar[j+1]>)--> swap
+}
+}
+
+Insertion sort:
+loop 1 0 - n
+j=i;
+while j>0 and j-1>j swap till possible
+j--
+
+
+merge sort:
+
+recursive call for mergeSort(arr, low high) if low>=high return
+else call for low mid and mid+1 high
+then call merge func
+merge
+create left = mid-low +1 right = high-mid;
+then left arr and right arr with left and right then 
+for i -left leftarr[i] = arr[low+i]
+for i - right right arr[i] = arr[mid+1+i]
+int l0 r0 index =low
+while l<left and r<right if leftarr[l]<=rightarr[r] arr[index++] = left arr[l++]
+else arr[index = rightarr[r++]]
+
+then put 2 while l<left and  while r<right add remaining arr[index++] = leftarr[l++] or riht arr[r++]
+if needed print here or return to merge sort and then main
+
+quick sort
+first put recursion ...pt from partition  if low<high int pt = partition arr low high then recursion of qsort low->pt-1 and pt+1->high left and right cases
+partition fuc should be with pivot = arr[high]
+i = low  loop j low-high if arr[j]< pivot swap with arr[i] then i++
+finally out of loop swap arr[i] and arr[high].....--->[pivot]
+return i as partition pt
+
+
+counting:
+basically create a hash array and put the frequency for the elements(index of hash) value is the freq, then print the values how ever u want to store it in another array in the printing loop;
