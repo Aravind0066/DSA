@@ -8,7 +8,7 @@ int partition(int arr[], int low, int high) {
             int temp = arr[i];
             arr[i] = arr[j];
             arr[j] = temp;
-            i++;
+            i++;                           /// 5 8 4 2 6 1 3  1 2 3 8 6 5 4
         }
     }
     int temp = arr[i];
