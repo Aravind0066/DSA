@@ -42,7 +42,7 @@ else arr[index = rightarr[r++]]
 then put 2 while l<left and  while r<right add remaining arr[index++] = leftarr[l++] or riht arr[r++]
 if needed print here or return to merge sort and then main
 
-quick sort
+quick sort:
 first put recursion ...pt from partition  if low<high int pt = partition arr low high then recursion of qsort low->pt-1 and pt+1->high left and right cases
 partition fuc should be with pivot = arr[high]
 i = low  loop j low-high if arr[j]< pivot swap with arr[i] then i++
