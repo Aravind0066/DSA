@@ -1,4 +1,4 @@
-#include <stdio.h>
+d#include <stdio.h>
 
 typedef struct{
     int arr[1000];
